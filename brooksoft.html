@@ -1,6 +1,7 @@
 
 
 
+
 <!DOCTYPE html>
 
 <html>
@@ -292,7 +293,7 @@ function closeNav() {
 }
       
       .gsc-input-box {
-    border-radius: 11px;
+    border-radius: 18px;
 }
 
       
@@ -304,76 +305,7 @@ function closeNav() {
 <div class="elfsight-app-1cc1833b-52a7-4684-b31f-dc8dccf7b122"></div>
 
 
-  <div class="mySlides">
-    <div class="numbertext">BrookAds</div>
-    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/brooksoft alpha.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">BrookAds</div>
-    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/Aaa.jpeg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">BrookAds</div>
-    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/-2.jpeg" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">BrookAds</div>
-    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/--.jpeg" style="width:90%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">BrookAds</div>
-    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/-1.0.webp" style="width:60%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">BrookAds</div>
-    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/-.jpeg" style="width:100%">
-  </div>
-    
-   <div class="mySlides">
-    <div class="numbertext">BrookAds</div>
-    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/-wa.png" style="width:100%">
-  </div>
-  
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  
-
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
+ 
     
 </body>
 </html>
@@ -480,6 +412,13 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 </script>
+
+<footer>
+<center>
+
+<a href="brooksoftpage2.html"><img src="https://raw.githubusercontent.com/BrooksoftAlpha/Brooksoft.github.io/main/Screenshot%202023-08-03%20at%205.43.40%20PM.png" alt="next" style="width:85px;height:80px;"></a>
+
+</center>
+</footer>
 </body>
 </html> 
-
